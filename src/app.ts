@@ -9,10 +9,9 @@ app.use(cors())
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
-app.use('/api/v1/user/',router)
+app.use('/api/v1/user/', router)
 
-app.get('/',async (req: Request, res: Response) => {
-
+app.get('/', async (req: Request, res: Response) => {
   res.send('Hello World!')
 })
 
