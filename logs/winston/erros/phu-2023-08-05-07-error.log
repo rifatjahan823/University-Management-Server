@@ -1,0 +1,38 @@
+{
+  errors: {
+    role: ValidatorError: Path `role` is required.
+        at validate (E:\Next-Level(again)\mission-3\university-management(11)\node_modules\mongoose\lib\schematype.js:1365:13)
+        at SchemaString.SchemaType.doValidate (E:\Next-Level(again)\mission-3\university-management(11)\node_modules\mongoose\lib\schematype.js:1349:7)
+        at E:\Next-Level(again)\mission-3\university-management(11)\node_modules\mongoose\lib\document.js:2938:18
+        at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `role` is required.',
+        type: 'required',
+        path: 'role',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'role',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'User validation failed',
+  level: 'error',
+  message: 'global error handler User validation failed: role: Path `role` is required.',
+  stack: 'ValidationError: User validation failed: role: Path `role` is required.\n' +
+    '    at model.Document.invalidate (E:\\Next-Level(again)\\mission-3\\university-management(11)\\node_modules\\mongoose\\lib\\document.js:3153:32)\n' +
+    '    at E:\\Next-Level(again)\\mission-3\\university-management(11)\\node_modules\\mongoose\\lib\\document.js:2946:17\n' +
+    '    at E:\\Next-Level(again)\\mission-3\\university-management(11)\\node_modules\\mongoose\\lib\\schematype.js:1368:9\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:77:11)',
+  label: 'right meow!',
+  timestamp: '2023-08-05T01:01:27.071Z'
+}
+{
+  code: 'ERR_INVALID_ARG_TYPE',
+  level: 'error',
+  label: 'right meow!',
+  timestamp: '2023-08-05T01:13:17.668Z'
+}
