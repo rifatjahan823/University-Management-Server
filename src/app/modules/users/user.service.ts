@@ -14,11 +14,11 @@ const createUser = async (user: IUser): Promise<IUser | null> => {
   }
   const createdUser = await User.create(user)
   if (!createdUser) {
- throw new ApiError(400,'User not created')
+    throw new ApiError(400, 'User not created')
   }
   return createdUser
 }
 
-export const service= {
+export const service = {
   createUser,
 }

@@ -1,0 +1,152 @@
+{
+  statusCode: 409,
+  level: 'error',
+  message: 'global error handler Academic Semester is already exist',
+  stack: 'Error: Academic Semester is already exist\n' +
+    '    at model.<anonymous> (E:\\Next-Level(again)\\mission-3\\university-management(11)\\src\\app\\modules\\academicSemester.ts\\academicSemester.model.ts:26:15)\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (E:\\Next-Level(again)\\mission-3\\university-management(11)\\src\\app\\modules\\academicSemester.ts\\academicSemester.model.ts:5:58)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'right meow!',
+  timestamp: '2023-08-16T00:07:17.638Z'
+}
+{
+  statusCode: 409,
+  level: 'error',
+  message: 'global error handler Academic Semester is already exist',
+  stack: 'Error: Academic Semester is already exist\n' +
+    '    at model.<anonymous> (E:\\Next-Level(again)\\mission-3\\university-management(11)\\src\\app\\modules\\academicSemester.ts\\academicSemester.model.ts:26:15)\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (E:\\Next-Level(again)\\mission-3\\university-management(11)\\src\\app\\modules\\academicSemester.ts\\academicSemester.model.ts:5:58)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'right meow!',
+  timestamp: '2023-08-16T00:07:39.585Z'
+}
+{
+  statusCode: 409,
+  level: 'error',
+  message: 'global error handler Academic Semester is already exist',
+  stack: 'Error: Academic Semester is already exist\n' +
+    '    at model.<anonymous> (E:\\Next-Level(again)\\mission-3\\university-management(11)\\src\\app\\modules\\academicSemester.ts\\academicSemester.model.ts:26:15)\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (E:\\Next-Level(again)\\mission-3\\university-management(11)\\src\\app\\modules\\academicSemester.ts\\academicSemester.model.ts:5:58)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'right meow!',
+  timestamp: '2023-08-16T00:07:42.389Z'
+}
+{
+  statusCode: 409,
+  level: 'error',
+  message: 'global error handler Academic Semester is already exist',
+  stack: 'Error: Academic Semester is already exist\n' +
+    '    at model.<anonymous> (E:\\Next-Level(again)\\mission-3\\university-management(11)\\src\\app\\modules\\academicSemester.ts\\academicSemester.model.ts:26:15)\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (E:\\Next-Level(again)\\mission-3\\university-management(11)\\src\\app\\modules\\academicSemester.ts\\academicSemester.model.ts:5:58)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'right meow!',
+  timestamp: '2023-08-16T00:08:18.213Z'
+}
+{
+  issues: [
+    {
+      received: 'summer',
+      code: 'invalid_enum_value',
+      options: [ 'Autumn', 'Summer', 'Fall' ],
+      path: [ 'body', 'title' ],
+      message: "Invalid enum value. Expected 'Autumn' | 'Summer' | 'Fall', received 'summer'"
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'error',
+  message: 'global error handler [\n' +
+    '  {\n' +
+    '    "received": "summer",\n' +
+    '    "code": "invalid_enum_value",\n' +
+    '    "options": [\n' +
+    '      "Autumn",\n' +
+    '      "Summer",\n' +
+    '      "Fall"\n' +
+    '    ],\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "title"\n' +
+    '    ],\n' +
+    `    "message": "Invalid enum value. Expected 'Autumn' | 'Summer' | 'Fall', received 'summer'"\n` +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    '    "received": "summer",\n' +
+    '    "code": "invalid_enum_value",\n' +
+    '    "options": [\n' +
+    '      "Autumn",\n' +
+    '      "Summer",\n' +
+    '      "Fall"\n' +
+    '    ],\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "title"\n' +
+    '    ],\n' +
+    `    "message": "Invalid enum value. Expected 'Autumn' | 'Summer' | 'Fall', received 'summer'"\n` +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (E:\\Next-Level(again)\\mission-3\\university-management(11)\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodObject.parseAsync (E:\\Next-Level(again)\\mission-3\\university-management(11)\\node_modules\\zod\\lib\\types.js:164:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'right meow!',
+  timestamp: '2023-08-16T00:41:17.054Z'
+}
+{
+  issues: [
+    {
+      received: 'summer',
+      code: 'invalid_enum_value',
+      options: [ 'Autumn', 'Summer', 'Fall' ],
+      path: [ 'body', 'title' ],
+      message: "Invalid enum value. Expected 'Autumn' | 'Summer' | 'Fall', received 'summer'"
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'error',
+  message: 'global error handler [\n' +
+    '  {\n' +
+    '    "received": "summer",\n' +
+    '    "code": "invalid_enum_value",\n' +
+    '    "options": [\n' +
+    '      "Autumn",\n' +
+    '      "Summer",\n' +
+    '      "Fall"\n' +
+    '    ],\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "title"\n' +
+    '    ],\n' +
+    `    "message": "Invalid enum value. Expected 'Autumn' | 'Summer' | 'Fall', received 'summer'"\n` +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    '    "received": "summer",\n' +
+    '    "code": "invalid_enum_value",\n' +
+    '    "options": [\n' +
+    '      "Autumn",\n' +
+    '      "Summer",\n' +
+    '      "Fall"\n' +
+    '    ],\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "title"\n' +
+    '    ],\n' +
+    `    "message": "Invalid enum value. Expected 'Autumn' | 'Summer' | 'Fall', received 'summer'"\n` +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (E:\\Next-Level(again)\\mission-3\\university-management(11)\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodObject.parseAsync (E:\\Next-Level(again)\\mission-3\\university-management(11)\\node_modules\\zod\\lib\\types.js:164:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'right meow!',
+  timestamp: '2023-08-16T00:45:48.645Z'
+}

@@ -3,7 +3,6 @@ import { IUser, UserModel } from './user.interface'
 
 // Create a new Model type that knows about IUserMethods...
 
-
 // 2. Create a Schema corresponding to the document interface.
 const userSchema = new Schema<IUser>(
   {
