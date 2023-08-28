@@ -1,0 +1,393 @@
+{
+  issues: [
+    {
+      code: 'invalid_type',
+      expected: 'string',
+      received: 'undefined',
+      path: [ 'body', 'year' ],
+      message: 'Year is Required'
+    },
+    {
+      expected: "'01' | '02' | '03'",
+      received: 'undefined',
+      code: 'invalid_type',
+      path: [ 'body', 'code' ],
+      message: 'Code is Required'
+    },
+    {
+      expected: "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",
+      received: 'undefined',
+      code: 'invalid_type',
+      path: [ 'body', 'startMonth' ],
+      message: 'Start-Month is Require'
+    },
+    {
+      expected: "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",
+      received: 'undefined',
+      code: 'invalid_type',
+      path: [ 'body', 'endMonth' ],
+      message: 'End-Month is Require'
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'error',
+  message: 'global error handler [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "string",\n' +
+    '    "received": "undefined",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "year"\n' +
+    '    ],\n' +
+    '    "message": "Year is Required"\n' +
+    '  },\n' +
+    '  {\n' +
+    `    "expected": "'01' | '02' | '03'",\n` +
+    '    "received": "undefined",\n' +
+    '    "code": "invalid_type",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "code"\n' +
+    '    ],\n' +
+    '    "message": "Code is Required"\n' +
+    '  },\n' +
+    '  {\n' +
+    `    "expected": "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",\n` +
+    '    "received": "undefined",\n' +
+    '    "code": "invalid_type",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "startMonth"\n' +
+    '    ],\n' +
+    '    "message": "Start-Month is Require"\n' +
+    '  },\n' +
+    '  {\n' +
+    `    "expected": "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",\n` +
+    '    "received": "undefined",\n' +
+    '    "code": "invalid_type",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "endMonth"\n' +
+    '    ],\n' +
+    '    "message": "End-Month is Require"\n' +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "string",\n' +
+    '    "received": "undefined",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "year"\n' +
+    '    ],\n' +
+    '    "message": "Year is Required"\n' +
+    '  },\n' +
+    '  {\n' +
+    `    "expected": "'01' | '02' | '03'",\n` +
+    '    "received": "undefined",\n' +
+    '    "code": "invalid_type",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "code"\n' +
+    '    ],\n' +
+    '    "message": "Code is Required"\n' +
+    '  },\n' +
+    '  {\n' +
+    `    "expected": "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",\n` +
+    '    "received": "undefined",\n' +
+    '    "code": "invalid_type",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "startMonth"\n' +
+    '    ],\n' +
+    '    "message": "Start-Month is Require"\n' +
+    '  },\n' +
+    '  {\n' +
+    `    "expected": "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",\n` +
+    '    "received": "undefined",\n' +
+    '    "code": "invalid_type",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "endMonth"\n' +
+    '    ],\n' +
+    '    "message": "End-Month is Require"\n' +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (E:\\Next-Level(again)\\mission-3\\university-management(11)\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodEffects.parseAsync (E:\\Next-Level(again)\\mission-3\\university-management(11)\\node_modules\\zod\\lib\\types.js:164:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'right meow!',
+  timestamp: '2023-08-27T14:48:38.750Z'
+}
+{
+  issues: [
+    {
+      code: 'invalid_type',
+      expected: 'string',
+      received: 'undefined',
+      path: [ 'body', 'year' ],
+      message: 'Year is Required'
+    },
+    {
+      expected: "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",
+      received: 'undefined',
+      code: 'invalid_type',
+      path: [ 'body', 'startMonth' ],
+      message: 'Start-Month is Require'
+    },
+    {
+      expected: "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",
+      received: 'undefined',
+      code: 'invalid_type',
+      path: [ 'body', 'endMonth' ],
+      message: 'End-Month is Require'
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'error',
+  message: 'global error handler [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "string",\n' +
+    '    "received": "undefined",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "year"\n' +
+    '    ],\n' +
+    '    "message": "Year is Required"\n' +
+    '  },\n' +
+    '  {\n' +
+    `    "expected": "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",\n` +
+    '    "received": "undefined",\n' +
+    '    "code": "invalid_type",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "startMonth"\n' +
+    '    ],\n' +
+    '    "message": "Start-Month is Require"\n' +
+    '  },\n' +
+    '  {\n' +
+    `    "expected": "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",\n` +
+    '    "received": "undefined",\n' +
+    '    "code": "invalid_type",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "endMonth"\n' +
+    '    ],\n' +
+    '    "message": "End-Month is Require"\n' +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "string",\n' +
+    '    "received": "undefined",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "year"\n' +
+    '    ],\n' +
+    '    "message": "Year is Required"\n' +
+    '  },\n' +
+    '  {\n' +
+    `    "expected": "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",\n` +
+    '    "received": "undefined",\n' +
+    '    "code": "invalid_type",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "startMonth"\n' +
+    '    ],\n' +
+    '    "message": "Start-Month is Require"\n' +
+    '  },\n' +
+    '  {\n' +
+    `    "expected": "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",\n` +
+    '    "received": "undefined",\n' +
+    '    "code": "invalid_type",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "endMonth"\n' +
+    '    ],\n' +
+    '    "message": "End-Month is Require"\n' +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (E:\\Next-Level(again)\\mission-3\\university-management(11)\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodEffects.parseAsync (E:\\Next-Level(again)\\mission-3\\university-management(11)\\node_modules\\zod\\lib\\types.js:164:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'right meow!',
+  timestamp: '2023-08-27T14:48:59.045Z'
+}
+{
+  issues: [
+    {
+      code: 'invalid_type',
+      expected: 'string',
+      received: 'undefined',
+      path: [ 'body', 'year' ],
+      message: 'Required'
+    },
+    {
+      expected: "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",
+      received: 'undefined',
+      code: 'invalid_type',
+      path: [ 'body', 'startMonth' ],
+      message: 'Required'
+    },
+    {
+      expected: "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",
+      received: 'undefined',
+      code: 'invalid_type',
+      path: [ 'body', 'endMonth' ],
+      message: 'Required'
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'error',
+  message: 'global error handler [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "string",\n' +
+    '    "received": "undefined",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "year"\n' +
+    '    ],\n' +
+    '    "message": "Required"\n' +
+    '  },\n' +
+    '  {\n' +
+    `    "expected": "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",\n` +
+    '    "received": "undefined",\n' +
+    '    "code": "invalid_type",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "startMonth"\n' +
+    '    ],\n' +
+    '    "message": "Required"\n' +
+    '  },\n' +
+    '  {\n' +
+    `    "expected": "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",\n` +
+    '    "received": "undefined",\n' +
+    '    "code": "invalid_type",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "endMonth"\n' +
+    '    ],\n' +
+    '    "message": "Required"\n' +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "string",\n' +
+    '    "received": "undefined",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "year"\n' +
+    '    ],\n' +
+    '    "message": "Required"\n' +
+    '  },\n' +
+    '  {\n' +
+    `    "expected": "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",\n` +
+    '    "received": "undefined",\n' +
+    '    "code": "invalid_type",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "startMonth"\n' +
+    '    ],\n' +
+    '    "message": "Required"\n' +
+    '  },\n' +
+    '  {\n' +
+    `    "expected": "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",\n` +
+    '    "received": "undefined",\n' +
+    '    "code": "invalid_type",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "endMonth"\n' +
+    '    ],\n' +
+    '    "message": "Required"\n' +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (E:\\Next-Level(again)\\mission-3\\university-management(11)\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodEffects.parseAsync (E:\\Next-Level(again)\\mission-3\\university-management(11)\\node_modules\\zod\\lib\\types.js:164:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'right meow!',
+  timestamp: '2023-08-27T14:49:33.957Z'
+}
+{
+  statusCode: 400,
+  level: 'error',
+  message: 'global error handler Title and Code not match',
+  stack: 'Error: Title and Code not match\n' +
+    '    at E:\\Next-Level(again)\\mission-3\\university-management(11)\\src\\app\\modules\\academicSemester.ts\\academicSemester.service.ts:93:11\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at E:\\Next-Level(again)\\mission-3\\university-management(11)\\src\\app\\modules\\academicSemester.ts\\academicSemester.service.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (E:\\Next-Level(again)\\mission-3\\university-management(11)\\src\\app\\modules\\academicSemester.ts\\academicSemester.service.ts:4:12)\n' +
+    '    at Object.updateSemester (E:\\Next-Level(again)\\mission-3\\university-management(11)\\src\\app\\modules\\academicSemester.ts\\academicSemester.service.ts:91:107)\n' +
+    '    at E:\\Next-Level(again)\\mission-3\\university-management(11)\\src\\app\\modules\\academicSemester.ts\\academicSemester.controller.ts:71:48\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at E:\\Next-Level(again)\\mission-3\\university-management(11)\\src\\app\\modules\\academicSemester.ts\\academicSemester.controller.ts:8:71\n' +
+    '    at new Promise (<anonymous>)',
+  label: 'right meow!',
+  timestamp: '2023-08-27T14:55:54.006Z'
+}
+{
+  expose: true,
+  statusCode: 400,
+  status: 400,
+  body: '{\r\n    "title":"Fall",\r\n\r\n}',
+  type: 'entity.parse.failed',
+  level: 'error',
+  message: 'global error handler Unexpected token } in JSON at position 26',
+  stack: 'SyntaxError: Unexpected token } in JSON at position 26\n' +
+    '    at JSON.parse (<anonymous>)\n' +
+    '    at parse (E:\\Next-Level(again)\\mission-3\\university-management(11)\\node_modules\\body-parser\\lib\\types\\json.js:89:19)\n' +
+    '    at E:\\Next-Level(again)\\mission-3\\university-management(11)\\node_modules\\body-parser\\lib\\read.js:128:18\n' +
+    '    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)\n' +
+    '    at invokeCallback (E:\\Next-Level(again)\\mission-3\\university-management(11)\\node_modules\\raw-body\\index.js:231:16)\n' +
+    '    at done (E:\\Next-Level(again)\\mission-3\\university-management(11)\\node_modules\\raw-body\\index.js:220:7)\n' +
+    '    at IncomingMessage.onEnd (E:\\Next-Level(again)\\mission-3\\university-management(11)\\node_modules\\raw-body\\index.js:280:7)\n' +
+    '    at IncomingMessage.emit (node:events:513:28)\n' +
+    '    at endReadableNT (node:internal/streams/readable:1359:12)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:82:21)',
+  label: 'right meow!',
+  timestamp: '2023-08-27T14:56:10.219Z'
+}
+{
+  issues: [
+    {
+      code: 'custom',
+      message: 'Either both Title & Code shuold be provided or Neither',
+      path: []
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'error',
+  message: 'global error handler [\n' +
+    '  {\n' +
+    '    "code": "custom",\n' +
+    '    "message": "Either both Title & Code shuold be provided or Neither",\n' +
+    '    "path": []\n' +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    '    "code": "custom",\n' +
+    '    "message": "Either both Title & Code shuold be provided or Neither",\n' +
+    '    "path": []\n' +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (E:\\Next-Level(again)\\mission-3\\university-management(11)\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodEffects.parseAsync (E:\\Next-Level(again)\\mission-3\\university-management(11)\\node_modules\\zod\\lib\\types.js:164:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'right meow!',
+  timestamp: '2023-08-27T14:56:15.405Z'
+}

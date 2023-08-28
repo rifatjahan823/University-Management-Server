@@ -1,0 +1,256 @@
+{
+  issues: [
+    {
+      code: 'custom',
+      message: 'Either both Title & Code shuold be provided or Neither',
+      path: []
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'error',
+  message: 'global error handler [\n' +
+    '  {\n' +
+    '    "code": "custom",\n' +
+    '    "message": "Either both Title & Code shuold be provided or Neither",\n' +
+    '    "path": []\n' +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    '    "code": "custom",\n' +
+    '    "message": "Either both Title & Code shuold be provided or Neither",\n' +
+    '    "path": []\n' +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (E:\\Next-Level(again)\\mission-3\\university-management(11)\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodEffects.parseAsync (E:\\Next-Level(again)\\mission-3\\university-management(11)\\node_modules\\zod\\lib\\types.js:164:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'right meow!',
+  timestamp: '2023-08-27T16:13:08.183Z'
+}
+{
+  issues: [
+    {
+      code: 'custom',
+      message: 'Either both Title & Code shuold be provided or Neither',
+      path: []
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'error',
+  message: 'global error handler [\n' +
+    '  {\n' +
+    '    "code": "custom",\n' +
+    '    "message": "Either both Title & Code shuold be provided or Neither",\n' +
+    '    "path": []\n' +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    '    "code": "custom",\n' +
+    '    "message": "Either both Title & Code shuold be provided or Neither",\n' +
+    '    "path": []\n' +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (E:\\Next-Level(again)\\mission-3\\university-management(11)\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodEffects.parseAsync (E:\\Next-Level(again)\\mission-3\\university-management(11)\\node_modules\\zod\\lib\\types.js:164:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'right meow!',
+  timestamp: '2023-08-27T16:15:10.337Z'
+}
+{
+  issues: [
+    {
+      code: 'custom',
+      message: 'Either both Title & Code shuold be provided or Neither',
+      path: []
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'error',
+  message: 'global error handler [\n' +
+    '  {\n' +
+    '    "code": "custom",\n' +
+    '    "message": "Either both Title & Code shuold be provided or Neither",\n' +
+    '    "path": []\n' +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    '    "code": "custom",\n' +
+    '    "message": "Either both Title & Code shuold be provided or Neither",\n' +
+    '    "path": []\n' +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (E:\\Next-Level(again)\\mission-3\\university-management(11)\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodEffects.parseAsync (E:\\Next-Level(again)\\mission-3\\university-management(11)\\node_modules\\zod\\lib\\types.js:164:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'right meow!',
+  timestamp: '2023-08-27T16:15:45.428Z'
+}
+{
+  issues: [
+    {
+      code: 'custom',
+      message: 'Either both Title & Code shuold be provided or Neither',
+      path: []
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'error',
+  message: 'global error handler [\n' +
+    '  {\n' +
+    '    "code": "custom",\n' +
+    '    "message": "Either both Title & Code shuold be provided or Neither",\n' +
+    '    "path": []\n' +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    '    "code": "custom",\n' +
+    '    "message": "Either both Title & Code shuold be provided or Neither",\n' +
+    '    "path": []\n' +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (E:\\Next-Level(again)\\mission-3\\university-management(11)\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodEffects.parseAsync (E:\\Next-Level(again)\\mission-3\\university-management(11)\\node_modules\\zod\\lib\\types.js:164:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'right meow!',
+  timestamp: '2023-08-27T16:15:46.451Z'
+}
+{
+  issues: [
+    {
+      code: 'custom',
+      message: 'Either both Title & Code shuold be provided or Neither',
+      path: []
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'error',
+  message: 'global error handler [\n' +
+    '  {\n' +
+    '    "code": "custom",\n' +
+    '    "message": "Either both Title & Code shuold be provided or Neither",\n' +
+    '    "path": []\n' +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    '    "code": "custom",\n' +
+    '    "message": "Either both Title & Code shuold be provided or Neither",\n' +
+    '    "path": []\n' +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (E:\\Next-Level(again)\\mission-3\\university-management(11)\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodEffects.parseAsync (E:\\Next-Level(again)\\mission-3\\university-management(11)\\node_modules\\zod\\lib\\types.js:164:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'right meow!',
+  timestamp: '2023-08-27T16:15:47.325Z'
+}
+{
+  issues: [
+    {
+      code: 'custom',
+      message: 'Either both Title & Code shuold be provided or Neither',
+      path: []
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'error',
+  message: 'global error handler [\n' +
+    '  {\n' +
+    '    "code": "custom",\n' +
+    '    "message": "Either both Title & Code shuold be provided or Neither",\n' +
+    '    "path": []\n' +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    '    "code": "custom",\n' +
+    '    "message": "Either both Title & Code shuold be provided or Neither",\n' +
+    '    "path": []\n' +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (E:\\Next-Level(again)\\mission-3\\university-management(11)\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodEffects.parseAsync (E:\\Next-Level(again)\\mission-3\\university-management(11)\\node_modules\\zod\\lib\\types.js:164:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'right meow!',
+  timestamp: '2023-08-27T16:16:44.500Z'
+}
+{
+  issues: [
+    {
+      code: 'custom',
+      message: 'Either both Title & Code shuold be provided or Neither',
+      path: []
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'error',
+  message: 'global error handler [\n' +
+    '  {\n' +
+    '    "code": "custom",\n' +
+    '    "message": "Either both Title & Code shuold be provided or Neither",\n' +
+    '    "path": []\n' +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    '    "code": "custom",\n' +
+    '    "message": "Either both Title & Code shuold be provided or Neither",\n' +
+    '    "path": []\n' +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (E:\\Next-Level(again)\\mission-3\\university-management(11)\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodEffects.parseAsync (E:\\Next-Level(again)\\mission-3\\university-management(11)\\node_modules\\zod\\lib\\types.js:164:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'right meow!',
+  timestamp: '2023-08-27T16:16:45.673Z'
+}
+{
+  issues: [
+    {
+      code: 'custom',
+      message: 'Either both Title & Code shuold be provided or Neither',
+      path: []
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'error',
+  message: 'global error handler [\n' +
+    '  {\n' +
+    '    "code": "custom",\n' +
+    '    "message": "Either both Title & Code shuold be provided or Neither",\n' +
+    '    "path": []\n' +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    '    "code": "custom",\n' +
+    '    "message": "Either both Title & Code shuold be provided or Neither",\n' +
+    '    "path": []\n' +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (E:\\Next-Level(again)\\mission-3\\university-management(11)\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodEffects.parseAsync (E:\\Next-Level(again)\\mission-3\\university-management(11)\\node_modules\\zod\\lib\\types.js:164:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'right meow!',
+  timestamp: '2023-08-27T16:17:48.870Z'
+}

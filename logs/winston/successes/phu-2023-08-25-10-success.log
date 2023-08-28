@@ -2,41 +2,35 @@
   message: 'Database Connected 5000',
   level: 'info',
   label: 'right meow!',
-  timestamp: '2023-08-05T00:07:10.626Z'
+  timestamp: '2023-08-25T04:47:13.831Z'
 }
 {
   message: 'Database Connected 5000',
   level: 'info',
   label: 'right meow!',
-  timestamp: '2023-08-05T00:09:28.539Z'
+  timestamp: '2023-08-25T04:47:50.001Z'
 }
 {
   message: 'Database Connected 5000',
   level: 'info',
   label: 'right meow!',
-  timestamp: '2023-08-05T00:50:59.815Z'
+  timestamp: '2023-08-25T04:52:02.400Z'
 }
 {
   message: 'Database Connected 5000',
   level: 'info',
   label: 'right meow!',
-  timestamp: '2023-08-05T00:51:06.118Z'
+  timestamp: '2023-08-25T04:52:27.659Z'
 }
 {
   message: 'Database Connected 5000',
   level: 'info',
   label: 'right meow!',
-  timestamp: '2023-08-05T00:51:24.807Z'
+  timestamp: '2023-08-25T04:52:43.416Z'
 }
 {
   message: 'Database Connected 5000',
   level: 'info',
   label: 'right meow!',
-  timestamp: '2023-08-05T00:52:42.744Z'
-}
-{
-  message: 'Database Connected 5000',
-  level: 'info',
-  label: 'right meow!',
-  timestamp: '2023-08-05T00:59:29.477Z'
+  timestamp: '2023-08-25T04:54:41.096Z'
 }
