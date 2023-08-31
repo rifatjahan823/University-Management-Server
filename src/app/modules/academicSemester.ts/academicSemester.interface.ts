@@ -24,6 +24,6 @@ export type IAcademicSemester = {
   endMonth: Month;
 };
 
-export type IAcademicSearchTerm={
-  searchTerm:string
-}
+export type IAcademicSearchTerm = {
+  searchTerm: string;
+};

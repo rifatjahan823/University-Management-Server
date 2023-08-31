@@ -6,12 +6,11 @@ export type IGenericErrorResponse = {
   errorMessages: IGenericErrorMessage[];
 };
 
-export type IGenericResponse<T>={
-  meta:{
-    page?:number|null ,
-    limit?:number|null,
-    total?:number|null,
-  },
-  data:T
-}
-
+export type IGenericResponse<T> = {
+  meta: {
+    page?: number | null;
+    limit?: number | null;
+    total?: number | null;
+  };
+  data: T;
+};

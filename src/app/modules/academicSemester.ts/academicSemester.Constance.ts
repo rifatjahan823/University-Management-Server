@@ -23,6 +23,6 @@ export const AcademicTitleCodemapping: { [key: string]: string } = {
   Fall: '03',
 };
 
-export const academicSemesterSearchableField=['title','year','code']
+export const academicSemesterSearchableField = ['title', 'year', 'code'];
 
-export const filterAbleField=['searchTerm','title','year','code']
+export const filterAbleField = ['searchTerm', 'title', 'year', 'code'];
