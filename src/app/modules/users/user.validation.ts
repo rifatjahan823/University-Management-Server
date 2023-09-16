@@ -1,7 +1,6 @@
 import { z } from 'zod';
 import { bloodGroup, gender } from '../student/student.constant';
 
-
 // -------------student-schema-----------------
 const createUserZodShema = z.object({
   body: z.object({
@@ -103,7 +102,6 @@ const createFacultyZodShema = z.object({
   }),
 });
 
-
 // -------------admin-schema-----------------
 const createAdminZodShema = z.object({
   body: z.object({
@@ -138,10 +136,8 @@ const createAdminZodShema = z.object({
   }),
 });
 
-
-
 export const userValidation = {
   createUserZodShema,
   createFacultyZodShema,
-  createAdminZodShema 
+  createAdminZodShema,
 };

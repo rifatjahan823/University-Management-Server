@@ -11,10 +11,14 @@ router.post(
   controller.creteControllerStudent,
 );
 router.post(
-  '/create-faculty', validateRequests(userValidation.createFacultyZodShema),controller.creteControllerFaculty,
+  '/create-faculty',
+  validateRequests(userValidation.createFacultyZodShema),
+  controller.creteControllerFaculty,
 );
 router.post(
-  '/create-admin',validateRequests(userValidation.createAdminZodShema),controller.creteControllerAdmin,
+  '/create-admin',
+  validateRequests(userValidation.createAdminZodShema),
+  controller.creteControllerAdmin,
 );
 
 export const userRoutes = { router };

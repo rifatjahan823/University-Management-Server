@@ -1,25 +1,28 @@
-import { SortOrder } from "mongoose";
-import { IGenericResponse } from "../../../interfaces/common";
-import { PaginationOptions } from "../../../interfaces/pagination";
-import { academicDepartmentSearchableFields } from "./academicDepartment.constance";
-import { IAcademicDepartment, IAcademicDepartmentFilters } from "./academicDepartment.interface";
-import { AcademicDepartment } from "./academicDepartment.model";
-import { calculatePagination } from "../../../helpers/paginationHelpers";
+import { SortOrder } from 'mongoose';
+import { IGenericResponse } from '../../../interfaces/common';
+import { PaginationOptions } from '../../../interfaces/pagination';
+import { academicDepartmentSearchableFields } from './academicDepartment.constance';
+import {
+  IAcademicDepartment,
+  IAcademicDepartmentFilters,
+} from './academicDepartment.interface';
+import { AcademicDepartment } from './academicDepartment.model';
+import { calculatePagination } from '../../../helpers/paginationHelpers';
 
 const createDepartment = async (
-  payload: IAcademicDepartment
+  payload: IAcademicDepartment,
 ): Promise<IAcademicDepartment | null> => {
   const result = (await AcademicDepartment.create(payload)).populate(
-    'academicFaculty'
+    'academicFaculty',
   );
   return result;
 };
 
 const getSingleDepartment = async (
-  id: string
+  id: string,
 ): Promise<IAcademicDepartment | null> => {
   const result = await AcademicDepartment.findById(id).populate(
-    'academicFaculty'
+    'academicFaculty',
   );
 
   return result;
@@ -27,10 +30,10 @@ const getSingleDepartment = async (
 
 const getAllDepartments = async (
   filters: IAcademicDepartmentFilters,
-  paginationOptions: PaginationOptions
+  paginationOptions: PaginationOptions,
 ): Promise<IGenericResponse<IAcademicDepartment[]>> => {
   const { limit, page, skip, sortBy, sortOrder } =
-  calculatePagination (paginationOptions);
+    calculatePagination(paginationOptions);
 
   // Extract searchTerm to implement search query
   const { searchTerm, ...filtersData } = filters;
@@ -88,21 +91,21 @@ const getAllDepartments = async (
 
 const updateDepartment = async (
   id: string,
-  payload: Partial<IAcademicDepartment>
+  payload: Partial<IAcademicDepartment>,
 ): Promise<IAcademicDepartment | null> => {
   const result = await AcademicDepartment.findOneAndUpdate(
     { _id: id },
     payload,
     {
       new: true,
-    }
+    },
   ).populate('academicFaculty');
 
   return result;
 };
 
 const deleteDepartment = async (
-  id: string
+  id: string,
 ): Promise<IAcademicDepartment | null> => {
   const result = await AcademicDepartment.findByIdAndDelete(id);
   return result;

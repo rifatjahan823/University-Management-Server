@@ -73,7 +73,7 @@ const AdminSchema = new Schema<IAdmin, AdminModel>(
   },
   {
     timestamps: true,
-  }
+  },
 );
 
 export const Admin = model<IAdmin, AdminModel>('Admin', AdminSchema);

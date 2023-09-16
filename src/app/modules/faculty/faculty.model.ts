@@ -76,11 +76,11 @@ const FacultySchema = new Schema<IFaculty, FacultyModel>(
     profileImage: {
       type: String,
       // required: true,
-    }
+    },
   },
   {
     timestamps: true,
-  }
+  },
 );
 
 export const Faculty = model<IFaculty, FacultyModel>('Faculty', FacultySchema);

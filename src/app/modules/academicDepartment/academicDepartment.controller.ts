@@ -8,11 +8,10 @@ import pick from '../../../shared/pick';
 import { academicDepartmentFilterableFields } from './academicDepartment.constance';
 import { paginationFiled } from '../../../constance/pagination';
 
-
 const createDepartment = catchAsync(async (req: Request, res: Response) => {
   const { ...academicDepartmentData } = req.body;
   const result = await AcademicDepartmentService.createDepartment(
-    academicDepartmentData
+    academicDepartmentData,
   );
 
   sendResponse<IAcademicDepartment>(res, {
@@ -41,7 +40,7 @@ const getAllDepartments = catchAsync(async (req: Request, res: Response) => {
 
   const result = await AcademicDepartmentService.getAllDepartments(
     filters,
-    paginationOptions
+    paginationOptions,
   );
 
   sendResponse<IAcademicDepartment[]>(res, {
