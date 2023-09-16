@@ -1,0 +1,12 @@
+{
+  message: 'Database Connected 5000',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-09-05T11:18:46.721Z'
+}
+{
+  message: 'Database Connected 5000',
+  level: 'info',
+  label: 'right meow!',
+  timestamp: '2023-09-05T11:45:12.631Z'
+}

@@ -1,0 +1,83 @@
+{
+  issues: [
+    {
+      code: 'invalid_type',
+      expected: 'object',
+      received: 'undefined',
+      path: [ 'body', 'guardian' ],
+      message: 'Required'
+    },
+    {
+      code: 'invalid_type',
+      expected: 'object',
+      received: 'undefined',
+      path: [ 'body', 'localGuardian' ],
+      message: 'Required'
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'error',
+  message: 'global error handler [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "object",\n' +
+    '    "received": "undefined",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "guardian"\n' +
+    '    ],\n' +
+    '    "message": "Required"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "object",\n' +
+    '    "received": "undefined",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "localGuardian"\n' +
+    '    ],\n' +
+    '    "message": "Required"\n' +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "object",\n' +
+    '    "received": "undefined",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "guardian"\n' +
+    '    ],\n' +
+    '    "message": "Required"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "object",\n' +
+    '    "received": "undefined",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "localGuardian"\n' +
+    '    ],\n' +
+    '    "message": "Required"\n' +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (E:\\Next-Level(again)\\mission-3\\university-management(11)\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodObject.parseAsync (E:\\Next-Level(again)\\mission-3\\university-management(11)\\node_modules\\zod\\lib\\types.js:164:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'right meow!',
+  timestamp: '2023-09-05T11:44:39.399Z'
+}
+{
+  statusCode: 404,
+  level: 'error',
+  message: 'global error handler Student not found !',
+  stack: 'Error: Student not found !\n' +
+    '    at E:\\Next-Level(again)\\mission-3\\university-management(11)\\src\\app\\modules\\student\\student.service.ts:90:13\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (E:\\Next-Level(again)\\mission-3\\university-management(11)\\src\\app\\modules\\student\\student.service.ts:5:58)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'right meow!',
+  timestamp: '2023-09-05T11:45:16.712Z'
+}
