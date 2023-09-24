@@ -25,8 +25,6 @@ const createStudent = async (
     user.password = config.defult_student_password as string;
   }
 
-
-
   //set role
   user.role = 'student';
   //get academic semester to set id
@@ -83,7 +81,6 @@ const createFaculty = async (
   if (!user.password) {
     user.password = config.default_facilty_password as string;
   }
-
 
   //set role
   user.role = 'faculty';
@@ -155,7 +152,7 @@ const createAdmin = async (
     }
 
     //set admin_id into user
-    user.admin= newStudent[0]._id;
+    user.admin = newStudent[0]._id;
     const newUser = await User.create([user], { session });
     if (!newUser.length) {
       throw new ApiError(httpStatus.BAD_REQUEST, 'Fail to create user');

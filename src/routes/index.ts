@@ -4,6 +4,7 @@ import { academicRouter } from '../app/modules/academicSemester.ts/academicSemes
 import { facultyRouter } from '../app/modules/academicFaculty/academicFaculty.router';
 import { AcademicDepartmentRoutes } from '../app/modules/academicDepartment/academicDepartment.router';
 import { studentRoutes } from '../app/modules/student/student.route';
+import { authRoutes } from '../app/modules/auth/auth.route';
 const routes = express.Router();
 
 const routers = [
@@ -27,6 +28,10 @@ const routers = [
     path: '/students',
     router: studentRoutes.router,
   },
+  {
+    path:'/auth',
+    router:authRoutes.router
+  }
 ];
 
 routers.forEach(route => routes.use(route.path, route.router));

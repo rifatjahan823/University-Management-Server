@@ -3,6 +3,7 @@ import { service } from './user.service';
 import { catchAsync } from '../../../shared/catchAsync';
 import httpStatus from 'http-status';
 import { sendResponse } from '../../../shared/sendResponse';
+import { IUser } from './user.interface';
 
 // --------------------Create-Student--------------
 const creteControllerStudent = catchAsync(
@@ -10,7 +11,7 @@ const creteControllerStudent = catchAsync(
     const { student, ...userData } = req.body;
     const result = await service.createStudent(student, userData);
 
-    sendResponse(res, {
+    sendResponse<IUser>(res, {
       statusCode: httpStatus.OK,
       success: true,
       message: 'create Studentsuccessfully',
